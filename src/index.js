@@ -2,6 +2,8 @@ import { diffDates, diffToHtml } from "./datecalc.js";
 import { formatError } from "./utils.js";
 import { addListenerShowEl } from "./changechapter.js";
 import { playBellSound } from "./howlerEl.js";
+import "../sounds/bell-sound.mp3";
+import "../css/style.scss";
 
 const dateCalcForm = document.getElementById("datecalc");
 const dateCalcResult = document.getElementById("datecalc__result");
